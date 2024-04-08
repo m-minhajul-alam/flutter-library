@@ -36,7 +36,7 @@ const templates = [
 
 const Templates = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto mb-12">
       {/* TITLE */}
       <div className="flex items-center justify-between mb-5">
         <h1 className="text-2xl">Templates</h1>
@@ -44,7 +44,7 @@ const Templates = () => {
       </div>
 
       {/* CARDS */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {templates?.map((template) => (
           <div key={template.id}>
             <img src={template.img} className="rounded-lg" alt="" />
