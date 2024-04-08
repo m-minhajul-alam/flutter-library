@@ -37,7 +37,7 @@ const Articles = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {articles?.map((article) => (
           <div key={article.id}>
-            <img src={article.img} alt="" />
+            <img src={article.img} className="rounded-lg" alt="" />
 
             <div>
               <div className="flex items-center gap-1 text-sm text-[#989898] my-1">

@@ -1,5 +1,6 @@
 import Articles from "../../components/articles/Articles";
 import Banner from "../../components/banner/Banner";
+import Screens from "../../components/screens/Screens";
 import Templates from "../../components/templates/Templates";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Banner />
       <Templates />
       <Articles />
+      <Screens />
     </div>
   );
 };
