@@ -3,9 +3,8 @@ import { IoSunnyOutline } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <div className="max-w-7xl mx-auto p-3 flex items-center justify-between">
+    <div className="max-w-7xl mx-auto p-3 flex flex-col md:flex-row gap-3 items-center justify-between">
       {/* SEARCH SECTION */}
-
       <div className="bg-[#F0F0F0] flex items-center rounded-full">
         <button className="pl-3">
           <CiSearch className="text-2xl" />
@@ -18,12 +17,14 @@ const Navbar = () => {
       </div>
 
       {/* BUTTONS SECTION */}
-      <div className="flex items-center gap-3">
+      <div className="hidden md:flex items-center gap-3">
         <button>
-          <IoSunnyOutline className="text-3xl"/>
+          <IoSunnyOutline className="text-3xl" />
         </button>
         <button className="p-3 border rounded-xl font-bold">Log in</button>
-        <button className="p-3 border rounded-xl font-bold bg-black text-white">Get Pro</button>
+        <button className="p-3 border rounded-xl font-bold bg-black text-white border-black">
+          Get Pro
+        </button>
       </div>
     </div>
   );

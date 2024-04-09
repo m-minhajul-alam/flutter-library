@@ -54,7 +54,7 @@ const Screens = () => {
       </div>
 
       {/* MENUS */}
-      <div className="flex items-center gap-3.5 mb-5">
+      <div className="flex items-center gap-3.5 overflow-x-auto mb-5">
         <button className="flex items-center gap-3 border py-1 px-3 rounded-full">
           <span>
             <LuSettings2 />
@@ -62,7 +62,7 @@ const Screens = () => {
           <span>Filters</span>
         </button>
         <div className="bg-[#F0F0F0] w-[1px] h-6"></div>
-        <button className="py-1 px-3 border rounded-full bg-black text-white">
+        <button className="py-1 px-3 border border-black rounded-full bg-black text-white">
           All
         </button>
         <button className="py-1 px-3 border rounded-full">New</button>

@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="max-w-7xl mx-auto mb-10">
       {/* FOOTER TOP */}
-      <div className="flex justify-between mb-8">
+      <div className="flex flex-col-reverse lg:flex-row justify-center lg:justify-between gap-5 mb-8">
         {/* FOOTER START */}
         <div className="space-y-4">
           <img src={logo} alt="" className="h-6" />
@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
 
       {/* FOOTER BOTTOM */}
-      <div className="flex items-center justify-between py-3 border-t text-[#989898] text-sm">
+      <div className="flex flex-col lg:flex-row gap-3 items-center justify-between py-3 border-t text-[#989898] text-xs lg:text-sm">
         <p>Copyright 2024 TheFlutterLibrary. All rights reserved.</p>
         <p>
           <span>Privacy Policy | </span> <span>Terms & Conditions | </span>
