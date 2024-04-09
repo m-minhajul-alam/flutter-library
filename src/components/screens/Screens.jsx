@@ -54,14 +54,13 @@ const Screens = () => {
       </div>
 
       {/* MENUS */}
-      <div className="flex items-center gap-3 mb-3">
+      <div className="flex items-center gap-3.5 mb-5">
         <button className="flex items-center gap-3 border py-1 px-3 rounded-full">
           <span>
             <LuSettings2 />
           </span>
           <span>Filters</span>
         </button>
-        {/* <p className="text-[#989898]">|</p> */}
         <div className="bg-[#F0F0F0] w-[1px] h-6"></div>
         <button className="py-1 px-3 border rounded-full bg-black text-white">
           All
